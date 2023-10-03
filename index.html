@@ -13,29 +13,49 @@
             
         }
         .margin {
-            margin: 10;
+            margin: 10px;
             border : 1px solid red;
+        }
+        .top-wrap{
+            overflow: hidden;
+        }
+        .nav {
+            float:left;
+        }
+        .wrap {
+            overflow: hidden;
+        }
+        .section{
+            width: 500px;
+            height: 400px;
+            float: left;
+        }
+        .aside {
+            width: 300px;
+            height: 400px;
+            float: right;
         }
     </style>
 </head>
 <body>
     <div class="main-wrap">
-        <header class="margin">
-            <h1>header tag</h1>
-            <nav class="margin">
-                <h3>nav tag</h3>
+        <header class="margin top-wrap">
+            <h1>My Portal</h1>
+            <nav class="margin nav">
                 <button>버튼1</button>
                 <button>버튼2</button>
                 <button>버튼3</button>
                 <button>버튼4</button>
             </nav>
         </header>
-        <section class="margin">
-            <h1>section tag</h1>
-        </section>
-        <aside class="margin">
-            <h1>aside tag</h1>
-        </aside>
+        <div class="wrap">
+            <section class="margin section">
+                <h1>section tag</h1>
+            </section>
+            <aside class="margin aside">
+                <h1>aside tag</h1>
+            </aside>
+        </div>
         <footer class="margin">
             <h1>footer tag</h1>
         </footer>
